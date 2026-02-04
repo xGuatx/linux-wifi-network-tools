@@ -1,0 +1,31 @@
+# Network captures
+*.pcap
+*.cap
+captures/
+
+# Logs
+*.log
+logs/
+
+# Configuration with passwords
+wpa_supplicant.conf
+*.passwords
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Claude Code
+.claude/
+.claude.json
